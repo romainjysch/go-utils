@@ -5,10 +5,6 @@ import (
 	"math"
 )
 
-func Hello() {
-	fmt.Println("Hello World")
-}
-
 func PaceToSpeed(minutes int, seconds int) {
 	m := float64(minutes)
 	s := float64(seconds)
